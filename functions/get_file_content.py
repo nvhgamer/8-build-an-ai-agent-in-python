@@ -2,7 +2,7 @@ import os
 
 from google.genai import types
 
-MAX_CHARS = 10000
+from config import MAX_CHARS
 
 def get_file_content(working_directory, file_path):
     # Get the absolute paths of the working directory and target file
